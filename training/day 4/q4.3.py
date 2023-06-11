@@ -1,0 +1,5 @@
+languages = ['Java', 'C', 'C++', 'Ruby']
+fruits = ['Apple', 'Banana', 'Orange']
+cities = ['New York', 'London', 'Paris']
+numbers = [1, 2, 3, 4, 5]
+names = ['John', 'Emma', 'Michael', 'Sophia']

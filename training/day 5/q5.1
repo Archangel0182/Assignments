@@ -1,0 +1,7 @@
+Q1 What is difference between shallow copy and deep copy? 
+
+->Shallow Copy vs. Deep Copy:
+Shallow copy and deep copy are two concepts related to copying objects in programming. The main difference lies in how they handle references to other objects within the copied object:
+
+- Shallow Copy: In a shallow copy, a new object is created, but the references to the nested objects are still shared between the original object and the copied object. In other words, changes made to the nested objects will be reflected in both the original and copied objects. Shallow copy is typically a faster operation since it does not involve duplicating the entire object graph.
+- Deep Copy: In a deep copy, a new object is created, and all the nested objects within the original object are also copied recursively. The copied object and its nested objects are completely independent of the original object and its nested objects. Changes made to the nested objects in the copied object will not affect the original object, and vice versa. Deep copy is generally a slower operation due to the need to duplicate the entire object graph.
